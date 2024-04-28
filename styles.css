@@ -290,11 +290,24 @@ form:hover {
 /*===============Break point 800px==========================*/
 
 @media (max-width:800px) {
+
+  .main-container{
+    display: flex;
+    flex-direction: column;
+   
+    background-color: #EFEAE2;
+ 
+    justify-content: center;
+    align-items: center;
+ 
+    /* background-color: red; */
+ }
+
   .backgroundContainer{  
     width: 400px;
     height: 600px;
-    justify-content: center;
-    align-content: center;
+    position: absolute;
+    top: 1%;
       
     
     background: url("./Public/phone\ elibrary\ 2.png");
@@ -310,7 +323,7 @@ form:hover {
     height : 300px;
     position: relative;
     
-    margin-top: 45px;
+    margin-top: 17px;
     margin-left: 70px;
     /* background-color: red;   */
   }
@@ -341,7 +354,7 @@ form:hover {
   }
 
   form:hover {
-    margin: 55px;
+    margin: 0px;
   }
 
 
