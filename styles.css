@@ -289,7 +289,7 @@ form:hover {
 
 /*===============Break point 800px==========================*/
 
-@media (max-width:600px) {
+@media (max-width:800px) {
   .backgroundContainer{  
     width: 400px;
     height: 600px;
